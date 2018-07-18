@@ -4,14 +4,14 @@ MAINTAINER florian.pereme@altran.com
 RUN apt-get update  && apt-get install -y python3-pip python3-dev 
 RUN cd /usr/local/bin && ln -s /usr/bin/python3 python 
 RUN pip3 install --upgrade pip 
-RUN pip install flask == 0.12.4 
-RUN pip install bokeh == 0.12.5 
-RUN pip install numpy 
-RUN pip install pandas 
-RUN pip install pickle 
-RUN pip install copy 
-RUN pip install itertools 
-RUN pip install doctest
+RUN pip3 install flask == 0.12.4 
+RUN pip3 install bokeh == 0.12.5 
+RUN pip3 install numpy 
+RUN pip3 install pandas 
+RUN pip3 install pickle 
+RUN pip3 install copy 
+RUN pip3 install itertools 
+RUN pip3 install doctest
 
 
  
