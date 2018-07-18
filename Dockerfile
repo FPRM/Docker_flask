@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 MAINTAINER florian.pereme@altran.com
 
 RUN apt-get update  && apt-get install -y python3-pip python3-dev 
-RUN cd /usr/local/bin && ln -s /usr/bin/python3 python \
+RUN cd /usr/local/bin && ln -s /usr/bin/python3 python 
 RUN  pip3 install --upgrade pip 
 RUN pip3 install flask = 0.12.4 bokeh = 0.12.5 numpy pandas pickle copy itertools doctest
 
