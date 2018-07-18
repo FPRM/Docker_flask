@@ -23,4 +23,5 @@ RUN sed -ri 's/^PermitRootLogin\s+.*/PermitRootLogin yes/' /etc/ssh/sshd_config
 RUN sed -ri 's/UsePAM yes/#UsePAM yes/g' /etc/ssh/sshd_config
 RUN echo 'root:medica' | chpasswd
 
+EXPOSE 5000 50006 80 8080 8082 22
 CMD /usr/sbin/sshd -D
