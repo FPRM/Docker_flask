@@ -10,7 +10,7 @@ RUN apt-get update \
   && pip3 install bokeh = 0.12.5
   && pip3 install numpy
   && pip3 install pandas
-  && pip3 installpickle
+  && pip3 install pickle
   && pip3 install copy
   && pip3 install itertools
   && pip3 install doctest
