@@ -21,7 +21,6 @@ matplotlib==2.2.2 \
 numpy==1.14.5 \
 packaging==17.1 \
 pandas==0.23.3 \
-pkg-resources==0.0.0 \
 pscript==0.5.5 \
 pyparsing==2.2.0 \
 python-dateutil==2.7.3 \
