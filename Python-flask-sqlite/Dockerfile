@@ -33,7 +33,8 @@ urllib3==1.23 \
 Werkzeug==0.14.1
 
 
-RUN sudo apt-get install -y sqlite3 libsqlite3-dev
+RUN apt-get install -y sqlite3 libsqlite3-dev
+
 RUN mkdir /db
 RUN /usr/bin/sqlite3 /db/test.db
 CMD /bin/bash
