@@ -6,8 +6,7 @@ RUN cd /usr/local/bin && ln -s /usr/bin/python3 python
 RUN pip3 install --upgrade pip 
 
 
-RUN pip3 install 
-bokeh==0.12.15 \
+RUN pip3 install bokeh==0.12.15 \
 certifi==2018.4.16 \
 chardet==3.0.4 \
 click==6.7 \
