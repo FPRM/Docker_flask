@@ -1,7 +1,8 @@
 FROM ubuntu:16.04
 MAINTAINER florian.pereme@altran.com
 
-RUN apt-get update && apt-get upgrade  && apt-get install -y python3-pip python3-dev openssh-server git
+RUN apt-get update 
+RUN apt-get install -y python3-pip python3-dev openssh-server git
 RUN cd /usr/local/bin && ln -s /usr/bin/python3 python 
 RUN pip3 install --upgrade pip 
 
